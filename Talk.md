@@ -521,6 +521,10 @@ redSquare.translatesAutoresizingMaskIntoConstraints = false
 
 ---
 
+![](cartography.gif)
+
+---
+
 ![fit](cartography.png)
 
 ---
