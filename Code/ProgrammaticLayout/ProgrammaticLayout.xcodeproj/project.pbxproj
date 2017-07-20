@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A3194D011F20E329004D4A38 /* CartographyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3194D001F20E329004D4A38 /* CartographyViewController.swift */; };
 		A357DA181F20304600C49C25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357DA171F20304600C49C25 /* AppDelegate.swift */; };
 		A357DA1A1F20304600C49C25 /* StoryboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357DA191F20304600C49C25 /* StoryboardViewController.swift */; };
 		A357DA1D1F20304600C49C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A357DA1B1F20304600C49C25 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		83A4D778BB17086B74419B1D /* Pods-ProgrammaticLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgrammaticLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgrammaticLayout/Pods-ProgrammaticLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		A3194D001F20E329004D4A38 /* CartographyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartographyViewController.swift; sourceTree = "<group>"; };
 		A357DA141F20304600C49C25 /* ProgrammaticLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A357DA171F20304600C49C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A357DA191F20304600C49C25 /* StoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				A357DA191F20304600C49C25 /* StoryboardViewController.swift */,
 				A357DA291F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift */,
 				A357DA2B1F20C38C00C49C25 /* ProgrammaticAutoLayoutAnchorViewController.swift */,
+				A3194D001F20E329004D4A38 /* CartographyViewController.swift */,
 				A357DA1B1F20304600C49C25 /* Main.storyboard */,
 				A357DA1E1F20304600C49C25 /* Assets.xcassets */,
 				A357DA201F20304600C49C25 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 			files = (
 				A357DA1A1F20304600C49C25 /* StoryboardViewController.swift in Sources */,
 				A357DA181F20304600C49C25 /* AppDelegate.swift in Sources */,
+				A3194D011F20E329004D4A38 /* CartographyViewController.swift in Sources */,
 				A357DA2C1F20C38C00C49C25 /* ProgrammaticAutoLayoutAnchorViewController.swift in Sources */,
 				A357DA2A1F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift in Sources */,
 			);
@@ -386,6 +390,7 @@
 				A357DA281F20304600C49C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -31,8 +31,7 @@ final class ProgrammaticAutolayoutAnchorViewController: UIViewController {
         let centerX = redSquare.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         let centerY = redSquare.centerYAnchor.constraint(equalTo: view.centerYAnchor)
         let aspectRatio = redSquare.widthAnchor.constraint(equalTo: redSquare.heightAnchor)
-//        let width = redSquare.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5)
-        let width = redSquare.widthAnchor.constraint(equalTo: view.centerXAnchor)
+        let width = redSquare.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.5)
 
         
         let constraints = [centerX, centerY, aspectRatio, width]
