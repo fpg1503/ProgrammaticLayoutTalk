@@ -10,10 +10,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window?.makeKeyAndVisible()
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        if let viewController = storyboard.instantiateInitialViewController() {
-            window?.rootViewController = viewController
-        }
+        window?.rootViewController = ProgrammaticAutolayoutViewController()
+
         return true
     }
 

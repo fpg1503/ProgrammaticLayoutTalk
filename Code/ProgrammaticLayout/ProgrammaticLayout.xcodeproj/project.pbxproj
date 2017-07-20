@@ -12,6 +12,7 @@
 		A357DA1D1F20304600C49C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A357DA1B1F20304600C49C25 /* Main.storyboard */; };
 		A357DA1F1F20304600C49C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A357DA1E1F20304600C49C25 /* Assets.xcassets */; };
 		A357DA221F20304600C49C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A357DA201F20304600C49C25 /* LaunchScreen.storyboard */; };
+		A357DA2A1F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357DA291F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A357DA1E1F20304600C49C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A357DA211F20304600C49C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A357DA231F20304600C49C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A357DA291F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticAutoLayoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A357DA171F20304600C49C25 /* AppDelegate.swift */,
 				A357DA191F20304600C49C25 /* StoryboardViewController.swift */,
+				A357DA291F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift */,
 				A357DA1B1F20304600C49C25 /* Main.storyboard */,
 				A357DA1E1F20304600C49C25 /* Assets.xcassets */,
 				A357DA201F20304600C49C25 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				A357DA1A1F20304600C49C25 /* StoryboardViewController.swift in Sources */,
 				A357DA181F20304600C49C25 /* AppDelegate.swift in Sources */,
+				A357DA2A1F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
