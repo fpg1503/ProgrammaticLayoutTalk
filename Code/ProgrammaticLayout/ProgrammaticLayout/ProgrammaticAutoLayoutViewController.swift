@@ -27,7 +27,7 @@ final class ProgrammaticAutolayoutViewController: UIViewController {
         view.addSubview(redSquare)
     }
     
-    private func addConstraintsToSubviews() {
+    private func addConstraintsToSubviews() {        
         let centerX = NSLayoutConstraint(item: redSquare,
                                          attribute: .centerX,
                                          relatedBy: .equal,
@@ -56,8 +56,8 @@ final class ProgrammaticAutolayoutViewController: UIViewController {
                                        attribute: .width,
                                        relatedBy: .equal,
                                        toItem: view,
-                                       attribute: .width,
-                                       multiplier: 0.5,
+                                       attribute: .centerX,
+                                       multiplier: 1,
                                        constant: 0)
         
         let constraints = [centerX, centerY, aspectRatio, width]

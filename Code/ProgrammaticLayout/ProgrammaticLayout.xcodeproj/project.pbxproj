@@ -13,9 +13,12 @@
 		A357DA1F1F20304600C49C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A357DA1E1F20304600C49C25 /* Assets.xcassets */; };
 		A357DA221F20304600C49C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A357DA201F20304600C49C25 /* LaunchScreen.storyboard */; };
 		A357DA2A1F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357DA291F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift */; };
+		A357DA2C1F20C38C00C49C25 /* ProgrammaticAutoLayoutAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A357DA2B1F20C38C00C49C25 /* ProgrammaticAutoLayoutAnchorViewController.swift */; };
+		B5C4D3F1C03EDCD560B93911 /* Pods_ProgrammaticLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EE4FC04E2A3DD5B34EEB47 /* Pods_ProgrammaticLayout.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83A4D778BB17086B74419B1D /* Pods-ProgrammaticLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgrammaticLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProgrammaticLayout/Pods-ProgrammaticLayout.debug.xcconfig"; sourceTree = "<group>"; };
 		A357DA141F20304600C49C25 /* ProgrammaticLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A357DA171F20304600C49C25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A357DA191F20304600C49C25 /* StoryboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		A357DA211F20304600C49C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A357DA231F20304600C49C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A357DA291F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticAutoLayoutViewController.swift; sourceTree = "<group>"; };
+		A357DA2B1F20C38C00C49C25 /* ProgrammaticAutoLayoutAnchorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaticAutoLayoutAnchorViewController.swift; sourceTree = "<group>"; };
+		C1EE4FC04E2A3DD5B34EEB47 /* Pods_ProgrammaticLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgrammaticLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D52C67E04BE5068E54131DF4 /* Pods-ProgrammaticLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProgrammaticLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProgrammaticLayout/Pods-ProgrammaticLayout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C4D3F1C03EDCD560B93911 /* Pods_ProgrammaticLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EAF46131E604356C28C69A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1EE4FC04E2A3DD5B34EEB47 /* Pods_ProgrammaticLayout.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40AF876B0DD5983DCC18D2A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83A4D778BB17086B74419B1D /* Pods-ProgrammaticLayout.debug.xcconfig */,
+				D52C67E04BE5068E54131DF4 /* Pods-ProgrammaticLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A357DA0B1F20304600C49C25 = {
 			isa = PBXGroup;
 			children = (
 				A357DA161F20304600C49C25 /* ProgrammaticLayout */,
 				A357DA151F20304600C49C25 /* Products */,
+				40AF876B0DD5983DCC18D2A5 /* Pods */,
+				01EAF46131E604356C28C69A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +85,7 @@
 				A357DA171F20304600C49C25 /* AppDelegate.swift */,
 				A357DA191F20304600C49C25 /* StoryboardViewController.swift */,
 				A357DA291F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift */,
+				A357DA2B1F20C38C00C49C25 /* ProgrammaticAutoLayoutAnchorViewController.swift */,
 				A357DA1B1F20304600C49C25 /* Main.storyboard */,
 				A357DA1E1F20304600C49C25 /* Assets.xcassets */,
 				A357DA201F20304600C49C25 /* LaunchScreen.storyboard */,
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A357DA261F20304600C49C25 /* Build configuration list for PBXNativeTarget "ProgrammaticLayout" */;
 			buildPhases = (
+				A673A79F0A7B849AF9008534 /* [CP] Check Pods Manifest.lock */,
 				A357DA101F20304600C49C25 /* Sources */,
 				A357DA111F20304600C49C25 /* Frameworks */,
 				A357DA121F20304600C49C25 /* Resources */,
+				A9BCBB25925AD725A7AB1DCE /* [CP] Embed Pods Frameworks */,
+				1497A18073CE7F63343FF23B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +164,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1497A18073CE7F63343FF23B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProgrammaticLayout/Pods-ProgrammaticLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A673A79F0A7B849AF9008534 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BCBB25925AD725A7AB1DCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProgrammaticLayout/Pods-ProgrammaticLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A357DA101F20304600C49C25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +219,7 @@
 			files = (
 				A357DA1A1F20304600C49C25 /* StoryboardViewController.swift in Sources */,
 				A357DA181F20304600C49C25 /* AppDelegate.swift in Sources */,
+				A357DA2C1F20C38C00C49C25 /* ProgrammaticAutoLayoutAnchorViewController.swift in Sources */,
 				A357DA2A1F2032AA00C49C25 /* ProgrammaticAutoLayoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +343,7 @@
 		};
 		A357DA271F20304600C49C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A4D778BB17086B74419B1D /* Pods-ProgrammaticLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgrammaticLayout/Info.plist;
@@ -276,6 +356,7 @@
 		};
 		A357DA281F20304600C49C25 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52C67E04BE5068E54131DF4 /* Pods-ProgrammaticLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ProgrammaticLayout/Info.plist;
