@@ -570,7 +570,15 @@ constrain(redSquare, view) { redSquare, view in
 
 ---
 
+#[fit] Outras DSLs
+
+---
+
 #[fit] `UIStackView`
+
+---
+
+#[fit] Mini demo
 
 ---
 
@@ -606,6 +614,18 @@ override func didMoveToSuperview() {
     }
 }
 ```
+
+---
+
+#[fit] Como?
+
+---
+
+#[fit] Manter views pequenas
+
+---
+
+#[fit] Simplificar mudanças
 
 ---
 
