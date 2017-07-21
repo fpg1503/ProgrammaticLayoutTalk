@@ -18,6 +18,10 @@
 
 ---
 
+#[fit] >> 🐥 <<
+
+---
+
 ![left](gravatar.jpg)
 #[fit] *Francesco* 
 #[fit] *Perrotti-Garcia*
@@ -96,6 +100,10 @@
 ---
 
 #[fit] 🎃`Aa`
+
+---
+
+#[fit] Teste A/B
 
 ---
 
@@ -574,6 +582,14 @@ constrain(redSquare, view) { redSquare, view in
 
 ---
 
+#[fit] Faça closures com objetivo
+
+---
+
+#[fit] Quebre em closures pequenas
+
+---
+
 #[fit] Outras DSLs
 
 ---
@@ -731,6 +747,34 @@ protocol StyleProvider {
 ---
 
 ![fit](relayout.png)
+
+---
+
+#[fit] Como começar?
+
+---
+
+#[fit] >> 🗑?
+
+---
+
+#[fit] `@IBDesignable`
+
+---
+
+#[fit] `@IBInspectable`
+
+---
+
+#[fit] Componentes muito usados
+
+---
+
+#[fit] Botões, etc
+
+---
+
+#[fit] Playgrounds
 
 ---
 
